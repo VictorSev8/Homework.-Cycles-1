@@ -40,11 +40,10 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + bank + " рублей");
         }
         System.out.println("Task 9");
-        int salary1 = 29000;
-        int bank1 = 0;
+        double salary1 = 29000;
+        double bank1 = 0;
         for (int i = 1; i < 13; i++) {
-            bank1 = bank1 + bank1 / 100;
-            bank1 = bank1 + salary1;
+            bank1 = bank1 + salary1 * 1.01;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + bank1 + " рублей");
         }
         System.out.println("Task 10");
